@@ -1,0 +1,569 @@
+/*-----------navbar---------------*/
+.navbar-expand-lg{
+    width: 100%;
+  }
+  /*.navbar-collapse{
+    margin-left: 10px;
+  }*/
+  .nav-item {
+    margin-top: 7px;
+    margin-left: 514px;
+    font-size: 18px;
+  }
+  .nav-item1 {
+    margin-top: 7px;
+    margin-left: 20px;
+    font-size: 18px;
+  }
+  .nav-item2 {
+    margin-top: 9px;
+    margin-left: 20px;
+    font-size: 18px;
+  }
+  .nav-item3 {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+  }
+  
+  /*---------carousle------------*/
+  
+  .image-fluid{
+    width: 100%;
+    margin-top: -63px;
+  }
+  .menubox {
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: -230px;
+    height: 74px;
+    width: 80%;
+    padding: 3px;
+    display: flex;
+    margin-left: 120px;
+  }
+  .menutext {
+  padding: 17px 25px 0 59px;
+  color: #a0a0a0;
+  font-size: 23px;
+  }
+  
+  
+  /*-----------card-------------------*/
+  
+  
+  .cardrow {
+  margin-bottom: 70px;
+  margin-top: 50px;
+  display: flex;
+  gap: 8px;
+  margin-left: 90px;
+  margin-right: 90px;
+  }
+  .cardborder{
+  border-radius: 10px;
+  height: 10px;
+  }
+  
+  
+  body {
+    margin: 3em;
+  }
+  .card:hover {
+    transform: scale(1.1);
+  }
+  .card {
+    transition: transform 0.5s;
+  }
+  
+  
+  
+  /*----------------------------owl caarousle------------------------------------------*/
+  
+  .owl-carousel .owl-item img {
+  display: block;
+  width: 100%;
+  margin-left: 50px;
+  }
+  .owl-carousel-1 .owl-nav button.owl-next, .owl-carousel-1 .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+  background: 0 0;
+  color: inherit;
+  border: none;
+  padding: 0!important;
+  /* font: inherit; */
+  font-size: 500px;
+  }
+  
+  /*-----------------Collections----------------------------------*/
+  .Frequently{
+  margin-left: 65px;
+  }
+  .Collections{
+  font-size: 27px;
+  margin-left: 65px;
+  }
+  .image-fluid2{
+  display: block;
+  width: 100%;
+  margin-top: 17px;
+  margin-bottom: 90px;
+  border-radius: 10px;  
+  }
+  
+  /*..........position effect 4...............*/
+  .rel-4{
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+  }
+  
+  .pos-5{
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      color: white;
+      opacity: 0;
+      height: 100%;
+      transition: all 0.5s ease;
+  }
+  .rel-4:hover .pos-5{
+      bottom: 0;
+      opacity: 1;
+  }
+  .rel-4 img{
+      width: 100%;
+      display: block;
+      transition: all 5s ease;
+  }
+  .rel-4:hover img{
+      transform: scale(1.2);
+      display: block;
+  }
+
+  /*------------------------some place name---------------------------------------*/
+  .rectangle{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 50px;
+    width: 50%;
+  }
+  .park{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 18px;
+  }
+  .street{
+    padding-left: 20px;
+  }
+
+.rectangle:hover{
+    filter: none;
+    box-shadow: 5px 5px 5px rgb(190, 190, 190);
+}
+
+
+  
+  /*-------------------------------form--------------*/
+  .d-flex{
+    margin-top: 10px;
+  }
+  .sideMain{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 80px;
+  }
+  .zomatofluid {
+    width: 300px;
+  }
+  .zomatoapp {
+  margin-left: 89px;
+  }
+  .Zomato {
+  margin-top: 10px;
+  margin-left: 29px;
+  }
+  .flex-grow{
+    text-align: start;
+    margin-left: 30px;
+  }
+  .subform{
+    margin-left:-50px;
+    margin-bottom: 20px;
+    display: flex;
+  }
+  .d-flex2 {
+    width: 375px;
+    margin-left: 80px;
+  }
+  input[type=text2] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 15px 20px 12px 10px;
+    margin-left: -30px;
+    margin-top: 20px;
+  }
+  .form-row{
+    width: 300px;
+  }
+  .btn-btn-outline-success{
+    width: 200px;
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    height: 55px;
+    margin-left: 5px;
+    border-radius: 10px;
+    margin-top: 18px;
+  } 
+  .googlepay{
+      margin-left: 5px;
+  }
+  
+  .appstore{
+    margin-left: 1px;
+  }
+  .appstorepic{
+    width: 100px;
+    height: 35px;
+  }
+  
+  /*----------------table---------------*/
+  #panel, #flip ,#panel1, #flip1 ,#panel2, #flip2, #panel3, #flip3  {    
+      background-color: white;
+      color: black;  
+      border: solid 1px #c3c3c3;
+      font-size: 25px;
+      margin-left: 100px;
+      margin-right: 100px;
+      height: 70px;
+      padding: 15px 0 0 20px;
+    }  
+    #flip, #flip1, #flip2, #flip3 {    
+      background-color: white;
+      color: black;  
+      border: solid 1px #c3c3c3;
+      font-size: 25px;
+      margin-left: 100px;
+      margin-right: 100px;
+      height: 70px;
+      padding: 15px 0 0 20px;
+    }  
+    #panel, #flip:hover{
+      background-color: rgba(126, 126, 126, 0.377);
+    }
+    #panel1, #flip1:hover{
+      background-color: rgba(126, 126, 126, 0.377);
+    }
+    #panel2, #flip2:hover{
+      background-color: rgba(126, 126, 126, 0.377);
+    }
+    #panel3, #flip3:hover{
+      background-color: rgba(126, 126, 126, 0.377);
+    }
+    
+    #panel { 
+      display:none;  
+      background-color: white;
+      color: black;  
+      font-size: 18px;
+      margin-left: 100px;
+      margin-right: 100px;
+      height: 116px;
+      padding: 15px 0 0 20px;
+    }  
+    #panel1{
+      display: none;
+      background-color: white;
+      color: black;
+      font-size: 18px;
+      margin-left: 100px;
+      margin-right: 100px;
+      height: 150px;
+      padding: 15px 0 0 20px;
+  }  
+  #panel3 {
+    display: none;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 627px;
+    padding: 15px 0 0 20px;
+    width: 85%;
+  }  
+  
+    #panel2 { 
+      display:none;  
+      background-color: white;
+      color: black; 
+      font-size: 19px;
+      margin-left: 100px;
+      margin-right: 100px;
+      height: 100px;
+      padding: 15px 0 0 20px;
+    } 
+  
+  
+    
+    /*-----------footer-------------*/
+    .footer{
+      text-align: center;
+      background-color: rgb(206, 206, 206);
+    }
+    .footermenu{
+      text-align: center;
+    }
+    .footerrow{
+      display: flex;
+      margin-left: 100px;
+    }
+    .footerline{
+      margin-left: 1px;
+    }
+    .footertext{
+      text-decoration-line: underline;
+      font-weight: bold;
+      color: rgb(44, 44, 44);
+      margin-top: 45px;
+    }
+    .footerpara{
+      color: rgb(71, 71, 71);
+      text-decoration-line:none;
+    }
+    .footerline1{
+      margin-left: 200px;
+    }
+    .footertext1{
+      text-decoration-line: underline;
+      font-weight: bold;
+      color: rgb(44, 44, 44);
+      margin-top: 45px;
+      margin-left: -94px;
+    }
+    .footerpara1{
+      color: rgb(71, 71, 71);
+      text-decoration-line:none;
+      margin-left: -100px;
+    }
+    .footerline2{
+      margin-left: 180px;
+    }
+    .footertext2{
+      text-decoration-line: underline;
+      font-weight: bold;
+      color: rgb(44, 44, 44);
+      margin-top: 45px;
+      margin-left: -100px;
+      margin-bottom: 20px;
+    }
+    .footerimage{
+      margin-left: -100px;
+    }
+    .footerpic{
+      border: 1px solid black;
+      background-color: black;
+      height: 45px;width: 45px;
+      border-radius: 50%;
+      padding: 10px;
+    }
+    .footertext3{
+      text-decoration-line: underline;
+      font-weight: bold;
+      color: black;
+      margin-top: 15px;
+      margin-left: -100px;
+      margin-bottom: 20px;
+    }
+    .footerimage2{
+      margin-left: -104px;
+    }
+    .footerpic2{
+      width: 100px;
+      height: 35px;
+    }
+    .zomatoheader{
+      text-align: left;
+      margin-left: 90px;
+    }
+    .footerpara:hover{
+      color: black;
+    }
+    .footerpara1:hover{
+      color: black;
+    }
+  
+  
+  
+  
+  
+  /*---------------------login and signup section------------*/
+  
+  html,body{
+  margin: 0;
+  padding: 0;
+  }
+  *{
+  box-sizing: border-box;
+  }
+  .container-fluid{
+  width: 100%;
+  margin: 0 auto;
+  }
+  .container{
+  width: 1180px;
+  margin: 0 auto;
+  }
+  .row{
+  display: flex;
+  flex-wrap: wrap;
+  }
+  .image-fluid{
+  display: block;
+  width: 100%;
+  }
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+  
+  body{
+  background-color: #344a72;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .signup-box{
+  width: 450px;
+  height: 520px;
+  margin: auto;
+  background-color: white;
+  margin-top: 50px;
+  border-radius: 10px;
+  }
+  .head{
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  }
+  .form-row{
+  width: 400px;
+  margin-left: 20px;
+  height: 50px;
+  }
+  .area{
+  display: flex;
+  margin-top: 20px;
+  font-size: 18px;
+  }
+  .form-control{
+  width: 100%;
+  padding: 13px;
+  border: 1px solid gray;
+  border-radius: 6px;
+  height: 45px;
+  font-size: 18px;
+  }
+  .form-control-radio{
+  width: 5%;
+  margin-top: 2px;
+  height: 20px;
+  }
+  .heading{
+  font-size: 15px;
+  margin-top: -30px;
+  margin-left: 30px;
+  }
+  .submit-btn{
+  width: 400px;
+  height: 50px;
+  margin-top: 1px;
+  border: none;
+  background-color: rgb(239, 79, 95);
+  color: white;
+  font-size: 18px;
+  border-radius: 10px;
+  }
+  .straightline{
+  margin-top: 25px;
+  }
+  .addition{
+  margin-top: -21px;
+  text-align: center;
+  letter-spacing: 1px;
+  }
+  .submit-btn1{
+  width: 400px;
+  height: 50px;
+  margin-top: 1px;
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  font-size: 18px;
+  border-radius: 10px;
+  }
+  .head{
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  }
+  .paragraph{
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  margin-top: 50px;
+  margin-left: -130px;
+  letter-spacing: 2px;
+  }
+  .paragraph a{
+  color: rgb(239, 79, 95);
+  }
+  .submit-btn2{
+  width: 400px;
+  height: 50px;
+  margin-top: 22px;
+  border: none;
+  background-color: rgb(239, 79, 95);
+  color: white;
+  font-size: 18px;
+  border-radius: 10px;
+  }
+  .straightline1{
+  margin-top: 50px;
+  }
+  .submit-btn3{
+  width: 400px;
+  height: 50px;
+  margin-top: 30px;
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  font-size: 18px;
+  border-radius: 10px;
+  }
+  .paragraph1{
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  margin-top: 110px;
+  margin-left: -130px;
+  letter-spacing: 2px;
+  }
+  .paragraph1 a{
+  color: rgb(239, 79, 95);
+  }
+    
